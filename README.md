@@ -18,3 +18,5 @@ api.ai : https://api.ai/
 
 api-ai-python : https://github.com/api-ai/api-ai-python
 
+使用python和IBM speech to text 进行 语音识别:http://blog.csdn.net/tang20120235/article/details/49762421
+
