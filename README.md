@@ -1,6 +1,16 @@
 # speech_recognition-sample-on-Python
-speech_recognition sample on Python
+speech_recognition sample for Python on ubuntu14 x64
 
+Installed:
+(1)sudo apt-get install -y python python-dev python-pip build-essential swig git
+(2)sudo apt-get install libpulse-dev
+(3)sudo pip install pocketsphinx
+(4)git clone https://github.com/Uberi/speech_recognition.git
+(5)cd speech_recognition
+(6)sudo python setup.py install
+
+
+============
 
 Speech recognition module for Python : https://github.com/Uberi/speech_recognition
 
