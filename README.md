@@ -30,7 +30,7 @@ speech Recognition
 
 ***Quick start command :python ./speech_recognition/examples/microphone_recognition.py	
 	
-***Sphinx voice recognition is offline,could decrease volume of dictionary to upper recognition success.
+***Sphinx voice recognition is offline,could decrease volume of dictionary to upper successful probability of recognition.
 	
 	(1) First,run 'MakeDicAndLm.py'
 	
