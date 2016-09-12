@@ -8,6 +8,7 @@ speech Recognition
 
 
 ***Installed command:
+
 (1)sudo apt-get install -y python python-dev python-pip build-essential swig git
 
 (2)sudo apt-get install libpulse-
