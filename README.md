@@ -9,13 +9,21 @@ speech Recognition
 
 ***Installed command:
 (1)sudo apt-get install -y python python-dev python-pip build-essential swig git
-(2)sudo apt-get install libpulse-dev
+
+(2)sudo apt-get install libpulse-
+
 (3)sudo pip install pocketsphinx
+
 (4)cd speech_recognition
+
 (5)sudo python setup.py install
+
 (6)sudo apt-get install portaudio19-dev
+
 (7)sudo pip install pyaudio
+
 (8)sudo apt-get install curl
+
 
 
 
