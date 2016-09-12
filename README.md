@@ -1,8 +1,11 @@
 speech Recognition
 
 ***system :ubuntu 14
+
 ***python version : 2.7
+
 ***speech_recognition source code is from https://github.com/Uberi/speech_recognition.git
+
 
 ***Installed command:
 (1)sudo apt-get install -y python python-dev python-pip build-essential swig git
