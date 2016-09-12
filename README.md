@@ -1,13 +1,10 @@
-# speech_recognition-sample-on-Python
-speech_recognition sample for Python on ubuntu14 x64
-
 speech Recognition
 
-***system :ubuntu 14 x64
+***system :ubuntu 14
 ***python version : 2.7
 ***speech_recognition source code is from https://github.com/Uberi/speech_recognition.git
 
-Installed commond:
+***Installed command:
 (1)sudo apt-get install -y python python-dev python-pip build-essential swig git
 (2)sudo apt-get install libpulse-dev
 (3)sudo pip install pocketsphinx
@@ -19,13 +16,9 @@ Installed commond:
 
 
 
-Quick start:
-
-python ./speech_recognition/examples/microphone_recognition.py	
-	 
+***Quick start command :python ./speech_recognition/examples/microphone_recognition.py	
 	
-	
-Sphinx voice recognition is offlne,could decrease volume of dictionary to upper recognition success.
+***Sphinx voice recognition is offline,could decrease volume of dictionary to upper recognition success.
 	
 	(1) First,run 'MakeDicAndLm.py'
 	
@@ -33,7 +26,7 @@ Sphinx voice recognition is offlne,could decrease volume of dictionary to upper 
 		*default recognizable word: "CLOSE","DOOR","OPEN","WINDOW"，could edit MakeDicAndLm.py to change recognitzing word,recommend volume of dictionary is 2-5.
 		*recognizable word can't over seven words,MUST insert by uppercase and letter order
 	
-	(3) create a new dictionary for Sphinx 
+	(3) create new dictionary for Sphinx 
 
 		3.1	
 			sudo chmod 777 /usr/local/lib/python2.7/dist-packages/speech_recognition/pocketsphinx-data/en-US/
@@ -45,9 +38,10 @@ Sphinx voice recognition is offlne,could decrease volume of dictionary to upper 
 		4.1
 			sudo chown -R ts /usr/local/lib/python2.7/dist-packages/speech_recognition/__init__.py
 		4.2
-			replace words of "/usr/local/lib/python2.7/dist-packages/speech_recognition/__init__.py"
+			replace word of "/usr/local/lib/python2.7/dist-packages/speech_recognition/__init__.py"
 			language-model.lm.bin -> sample.lm
 			pronounciation-dictionary.dict -> sample.dic
+	
 		
 		
 		
